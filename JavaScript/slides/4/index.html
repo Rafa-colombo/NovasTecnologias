@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Destinations WishList</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+	<!-- Our CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Vacations list</h1>
+        <p>Coloca ai teu puto</p>
+
+    </header>
+
+    <main>
+        <form id="destination_details_form">
+            <label for="name">Destination Name</label>
+            <input type="text" id="name" placeholder="Name of destination" required>
+
+            <label for="Vacation">Destination Location</label>
+            <input type="text" id="location" placeholder="Where is it?"  required>
+
+            <label for="photo">Photo</label>
+            <input type="url" id="photo" placeholder="Provide url photo" >
+
+            <label for="description">Destination description</label>
+            <textarea id="description" placeholder="Describe the destination" ></textarea>
+
+            <button type="submit">Add to list</button>
+        </form>
+
+        <article>
+            <h2 id="tittle">Enter destination details</h2>
+            <div id="destinations_container">
+                
+            </div>
+        </article>
+
+    </main>
+    <!-- Our JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>

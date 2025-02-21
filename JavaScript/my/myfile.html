@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My FILE</title>
+</head>
+<body>
+    <h1> My first Script </h1>
+
+    <p> P for paragrath </p>
+    <p class="especial"> Paragrath with an class</p>
+
+    <div id="special">
+        <p> Paragrath div with id 1</p>
+        <p> Paragrath div with id 2</p>
+    </div>
+
+    <label><input type="checkbox"> Yes!</label>
+    <p> </p>
+
+    <label>Your Name: <input typr="text" name="name"></label>
+    <input type="submit">
+    <p> </p>
+
+    <button> Press!! </button>
+
+    <script>
+
+        var btn = document.querySelector('button');
+        btn.onclick = function(evt) {
+            evt.target.style.background = "blue";
+            alert('You pressed the button')
+        }
+
+        function teste(a, b){
+            var result = a+b;
+            console.log(result);
+        }
+        
+
+        var hello = "Good morning Developer!";
+        console.log(hello);
+
+        var red = true;
+    
+    /*     if(red){
+            console.log("red is true");
+        }
+        else{
+            console.log("red is false");
+         }*/
+
+        /*  for (var i = 0; i<8; i++){
+            console.log(i);
+         } */
+
+         var n = 0;
+         var text = "";
+         while(n < 5){
+            text = "has gona up by " + (n+1) + "\n";
+            n++;
+            console.log(text);
+         }
+
+         var greetings = function(){
+            var ola = "Oi seu puto";
+            console.log(ola);
+         }
+         
+        greetings();
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Play</title>
+    <style>
+        div {
+            width: 50px;
+            height: 50px;
+            background-color: blue; /* aprender mudar cor */
+        }
+    </style>
+</head>
+<body>
+    <h1>Roll mouse over the boxes</h1>
+    <div>
+        <p>Clica no teclado (abre console)</p>
+    </div>
+
+    <script>
+        var head = document.querySelector('h1');
+        var box = document.querySelector('div');
+
+        box.addEventListener('mouseover', function(){head.innerHTML = "Mouse over the BOX";});
+        box.addEventListener('mouseout', function(){
+            head.innerHTML = "Mouse has left the box";
+            boxe = box.querySelector('backgorund-color');
+            boxe[0].innerHTML = 'red';
+            });
+
+        var pagetop;
+
+        window.addEventListener('scroll', function(){pagetop = window.pageYOffset;console.log(pagetop);})
+
+        document.addEventListener('keydown', function(evt){
+            var key = evt.key
+            console.log(key);
+        })
+    </script>
+    
+</body>
+</html>
