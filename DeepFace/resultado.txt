@@ -1,0 +1,35 @@
+
+Qnt identificado: 1
+Registro realizado em: 2025-03-14 17:30:03
+✅ Correspondência encontrada: RAFACOMOCULOS.jpg
+
+Resultados da Análise Facial:
+[
+    {
+        "age": 26,
+        "region": {
+            "x": 10,
+            "y": 7,
+            "w": 256,
+            "h": 256,
+            "left_eye": null,
+            "right_eye": null
+        },
+        "face_confidence": 0.92,
+        "gender": {
+            "Woman": 0.09291768819093704,
+            "Man": 99.90707397460938
+        },
+        "dominant_gender": "Man",
+        "emotion": {
+            "angry": 90.96100616455078,
+            "disgust": 1.303935170173645,
+            "fear": 1.2385060787200928,
+            "happy": 0.5657501220703125,
+            "sad": 0.9838030934333801,
+            "surprise": 0.09880127757787704,
+            "neutral": 4.848195552825928
+        },
+        "dominant_emotion": "angry"
+    }
+]
