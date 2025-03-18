@@ -10,8 +10,8 @@ teste 18/03(.txt): salvamento de dados em txt correspondente (erro ou resultado)
 
 Dataset:
 <br>  
-0.0 a 0.4	Muito semelhantes (provavelmente a mesma pessoa)
-0.4 a 0.6	Semelhança moderada (zona de incerteza)
+0.0 a 0.4	Muito semelhantes (provavelmente a mesma pessoa)  
+0.4 a 0.6	Semelhança moderada (zona de incerteza)  
 Acima de 0.6	Provavelmente pessoas diferentes
 <br>  
 Média 0: 0.3082277011811812   
