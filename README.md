@@ -9,11 +9,11 @@ teste 18/03(thread): utilização de threads para processamento mais rapido e re
 teste 18/03(.txt): salvamento de dados em txt correspondente (erro ou resultado)
 
 Dataset:
-<br>
+<br>  
 0.0 a 0.4	Muito semelhantes (provavelmente a mesma pessoa)
 0.4 a 0.6	Semelhança moderada (zona de incerteza)
 Acima de 0.6	Provavelmente pessoas diferentes
-<br>
+<br>  
 Média 0: 0.3082277011811812   
 Média 1: 0.6538744384599999  
 Média tudo: 0.6354224591991992  
