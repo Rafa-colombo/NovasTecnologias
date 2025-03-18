@@ -8,7 +8,12 @@ teste 14/03: algoritimo inicio dos testes
 teste 18/03(thread): utilização de threads para processamento mais rapido e resolução do problema de travamento de webcam <br>
 teste 18/03(.txt): salvamento de dados em txt correspondente (erro ou resultado)
 
-Dataset  
+Dataset:
+<br>
+0.0 a 0.4	Muito semelhantes (provavelmente a mesma pessoa)
+0.4 a 0.6	Semelhança moderada (zona de incerteza)
+Acima de 0.6	Provavelmente pessoas diferentes
+<br>
 Média 0: 0.3082277011811812   
 Média 1: 0.6538744384599999  
 Média tudo: 0.6354224591991992  
