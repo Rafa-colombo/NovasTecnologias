@@ -7,3 +7,9 @@ A aplicação é voltada para monitoramento em creches e ambientes similares, pe
 teste 14/03: algoritimo inicio dos testes  
 teste 18/03(thread): utilização de threads para processamento mais rapido e resolução do problema de travamento de webcam <br>
 teste 18/03(.txt): salvamento de dados em txt correspondente (erro ou resultado)
+
+Dataset  
+Média 0: 0.3082277011811812   
+Média 1: 0.6538744384599999  
+Média tudo: 0.6354224591991992  
+
