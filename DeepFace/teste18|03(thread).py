@@ -72,7 +72,7 @@ def extrair_rosto(frame):
 # funcao find, funcao analyze
 def analise(face_img):
     # realizar comparação com banco de dados
-    db_path = r"C:\Users\rafae\OneDrive\Desktop\python\DeepFace\.venv\database"
+    db_path = r"C:\Users\rafae\OneDrive\Desktop\python\DeepFace\database"
     matches = DeepFace.find(img_path=face_img, db_path=db_path, model_name=models[1], enforce_detection=True)
 
     with open("resultado.txt", "a", encoding="utf-8") as f:
