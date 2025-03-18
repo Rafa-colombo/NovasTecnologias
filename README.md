@@ -18,3 +18,14 @@ Média 0: 0.3082277011811812
 Média 1: 0.6538744384599999  
 Média tudo: 0.6354224591991992  
 
+Total de pares analisados: 1000
+Total de acertos: 547
+Acurácia: 0.54700000
+  
+Matriz de Confusão:  
+DeepFace    0    1  
+Real  
+0         249  251  
+1         202  298  
+
+
