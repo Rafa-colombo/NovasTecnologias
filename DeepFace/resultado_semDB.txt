@@ -1,0 +1,426 @@
+
+❌ Rosto não identificado - Registro em: 2025-03-18 10:11:46
+
+📊 Resultados da Análise Facial:
+[
+    {
+        "age": 31,
+        "region": {
+            "x": 7,
+            "y": 3,
+            "w": 232,
+            "h": 232,
+            "left_eye": null,
+            "right_eye": null
+        },
+        "face_confidence": 0.95,
+        "gender": {
+            "Woman": 0.04348703846335411,
+            "Man": 99.95650482177734
+        },
+        "dominant_gender": "Man",
+        "emotion": {
+            "angry": 0.0002666331420186907,
+            "disgust": 1.4778671453716878e-18,
+            "fear": 5.745431190007366e-05,
+            "happy": 0.0008821734227240086,
+            "sad": 0.010591014288365841,
+            "surprise": 4.337623522587819e-07,
+            "neutral": 99.98820495605469
+        },
+        "dominant_emotion": "neutral"
+    }
+]
+==================================================
+
+❌ Rosto não identificado - Registro em: 2025-03-18 10:12:40
+
+📊 Resultados da Análise Facial:
+[
+    {
+        "age": 25,
+        "region": {
+            "x": 2,
+            "y": 0,
+            "w": 243,
+            "h": 243,
+            "left_eye": [
+                165,
+                89
+            ],
+            "right_eye": [
+                77,
+                94
+            ]
+        },
+        "face_confidence": 0.93,
+        "gender": {
+            "Woman": 0.006621882319450378,
+            "Man": 99.99337005615234
+        },
+        "dominant_gender": "Man",
+        "emotion": {
+            "angry": 0.0001604173012310639,
+            "disgust": 3.922793419625805e-19,
+            "fear": 0.00021797470981255174,
+            "happy": 0.0006443329621106386,
+            "sad": 0.001557599869556725,
+            "surprise": 5.3147196865666047e-08,
+            "neutral": 99.99742126464844
+        },
+        "dominant_emotion": "neutral"
+    }
+]
+==================================================
+
+❌ Rosto não identificado - Registro em: 2025-03-18 10:19:35
+
+📊 Resultados da Análise Facial:
+[
+    {
+        "age": 33,
+        "region": {
+            "x": 1,
+            "y": 0,
+            "w": 243,
+            "h": 244,
+            "left_eye": null,
+            "right_eye": null
+        },
+        "face_confidence": 0.98,
+        "gender": {
+            "Woman": 0.005111140664666891,
+            "Man": 99.99488830566406
+        },
+        "dominant_gender": "Man",
+        "emotion": {
+            "angry": 0.0008441824465990067,
+            "disgust": 8.146750181197652e-15,
+            "fear": 0.0007253708317875862,
+            "happy": 0.39604321122169495,
+            "sad": 0.014097671024501324,
+            "surprise": 8.964349262896576e-07,
+            "neutral": 99.58828735351562
+        },
+        "dominant_emotion": "neutral"
+    }
+]
+==================================================
+
+❌ Rosto não identificado - Registro em: 2025-03-18 10:37:07
+
+📊 Resultados da Análise Facial:
+[
+    {
+        "age": 40,
+        "region": {
+            "x": 15,
+            "y": 0,
+            "w": 256,
+            "h": 259,
+            "left_eye": null,
+            "right_eye": null
+        },
+        "face_confidence": 0.98,
+        "gender": {
+            "Woman": 0.02127678133547306,
+            "Man": 99.97872924804688
+        },
+        "dominant_gender": "Man",
+        "emotion": {
+            "angry": 0.029708880931138992,
+            "disgust": 8.352419911261677e-08,
+            "fear": 0.1563822329044342,
+            "happy": 0.13259337842464447,
+            "sad": 1.0043028593063354,
+            "surprise": 0.0008681043982505798,
+            "neutral": 98.6761474609375
+        },
+        "dominant_emotion": "neutral"
+    }
+]
+==================================================
+
+❌ Rosto não identificado - Registro em: 2025-03-18 10:37:16
+
+📊 Resultados da Análise Facial:
+[
+    {
+        "age": 24,
+        "region": {
+            "x": 6,
+            "y": 1,
+            "w": 241,
+            "h": 242,
+            "left_eye": [
+                166,
+                93
+            ],
+            "right_eye": [
+                79,
+                96
+            ]
+        },
+        "face_confidence": 0.93,
+        "gender": {
+            "Woman": 0.009116332978010178,
+            "Man": 99.99088287353516
+        },
+        "dominant_gender": "Man",
+        "emotion": {
+            "angry": 0.0002712415298447013,
+            "disgust": 9.476371679820617e-16,
+            "fear": 0.0005717332242056727,
+            "happy": 0.007200714200735092,
+            "sad": 0.02048598602414131,
+            "surprise": 1.6003195923985913e-07,
+            "neutral": 99.97146606445312
+        },
+        "dominant_emotion": "neutral"
+    }
+]
+==================================================
+
+❌ Rosto não identificado - Registro em: 2025-03-18 10:41:29
+
+📊 Resultados da Análise Facial:
+[
+    {
+        "age": 26,
+        "region": {
+            "x": 8,
+            "y": 3,
+            "w": 205,
+            "h": 205,
+            "left_eye": [
+                143,
+                78
+            ],
+            "right_eye": [
+                64,
+                83
+            ]
+        },
+        "face_confidence": 0.95,
+        "gender": {
+            "Woman": 0.016731688752770424,
+            "Man": 99.98326110839844
+        },
+        "dominant_gender": "Man",
+        "emotion": {
+            "angry": 0.00029371536220423877,
+            "disgust": 2.6334494887493218e-14,
+            "fear": 0.0006972889532335103,
+            "happy": 0.7035521864891052,
+            "sad": 0.007781933527439833,
+            "surprise": 0.00010211798507953063,
+            "neutral": 99.28756713867188
+        },
+        "dominant_emotion": "neutral"
+    }
+]
+==================================================
+
+❌ Rosto não identificado - Registro em: 2025-03-18 10:42:34
+
+📊 Resultados da Análise Facial:
+[
+    {
+        "age": 28,
+        "region": {
+            "x": 8,
+            "y": 3,
+            "w": 212,
+            "h": 212,
+            "left_eye": null,
+            "right_eye": null
+        },
+        "face_confidence": 0.98,
+        "gender": {
+            "Woman": 0.024757232517004013,
+            "Man": 99.9752426147461
+        },
+        "dominant_gender": "Man",
+        "emotion": {
+            "angry": 0.014466040767729282,
+            "disgust": 7.939231954148807e-13,
+            "fear": 0.0063593946397304535,
+            "happy": 0.010357449762523174,
+            "sad": 0.09907499700784683,
+            "surprise": 4.5274096009961795e-06,
+            "neutral": 99.8697280883789
+        },
+        "dominant_emotion": "neutral"
+    }
+]
+==================================================
+
+❌ Rosto não identificado - Registro em: 2025-03-18 10:48:29
+
+📊 Resultados da Análise Facial:
+[
+    {
+        "age": 29,
+        "region": {
+            "x": 0,
+            "y": 0,
+            "w": 241,
+            "h": 241,
+            "left_eye": null,
+            "right_eye": null
+        },
+        "face_confidence": 0.96,
+        "gender": {
+            "Woman": 0.0021829025354236364,
+            "Man": 99.99781799316406
+        },
+        "dominant_gender": "Man",
+        "emotion": {
+            "angry": 0.004318794701248407,
+            "disgust": 1.534776971311158e-12,
+            "fear": 0.010126810520887375,
+            "happy": 0.18185433745384216,
+            "sad": 0.052107054740190506,
+            "surprise": 3.8123773265397176e-05,
+            "neutral": 99.75155639648438
+        },
+        "dominant_emotion": "neutral"
+    }
+]
+==================================================
+
+❌ Rosto não identificado - Registro em: 2025-03-18 10:56:27
+
+📊 Resultados da Análise Facial:
+[
+    {
+        "age": 36,
+        "region": {
+            "x": 185,
+            "y": 131,
+            "w": 271,
+            "h": 271,
+            "left_eye": null,
+            "right_eye": null
+        },
+        "face_confidence": 0.96,
+        "gender": {
+            "Woman": 0.006272622849792242,
+            "Man": 99.99372863769531
+        },
+        "dominant_gender": "Man",
+        "emotion": {
+            "angry": 0.0002593932149466127,
+            "disgust": 3.1396042754797907e-15,
+            "fear": 0.0003635210159700364,
+            "happy": 0.003989785443991423,
+            "sad": 0.002868225798010826,
+            "surprise": 3.3487935979792383e-06,
+            "neutral": 99.99250793457031
+        },
+        "dominant_emotion": "neutral"
+    }
+]
+==================================================
+
+❌ Rosto não identificado - Registro em: 2025-03-18 10:56:41
+
+📊 Resultados da Análise Facial:
+[
+    {
+        "age": 26,
+        "region": {
+            "x": 165,
+            "y": 183,
+            "w": 209,
+            "h": 209,
+            "left_eye": null,
+            "right_eye": null
+        },
+        "face_confidence": 0.96,
+        "gender": {
+            "Woman": 0.022540023550391197,
+            "Man": 99.97746276855469
+        },
+        "dominant_gender": "Man",
+        "emotion": {
+            "angry": 0.09285451471805573,
+            "disgust": 3.1300743247308915e-11,
+            "fear": 0.0897354707121849,
+            "happy": 0.45099499821662903,
+            "sad": 0.13520582020282745,
+            "surprise": 0.0003754243953153491,
+            "neutral": 99.2308349609375
+        },
+        "dominant_emotion": "neutral"
+    }
+]
+==================================================
+
+❌ Rosto não identificado - Registro em: 2025-03-18 10:57:28
+
+📊 Resultados da Análise Facial:
+[
+    {
+        "age": 33,
+        "region": {
+            "x": 279,
+            "y": 166,
+            "w": 264,
+            "h": 264,
+            "left_eye": null,
+            "right_eye": null
+        },
+        "face_confidence": 0.97,
+        "gender": {
+            "Woman": 0.04471242055296898,
+            "Man": 99.95529174804688
+        },
+        "dominant_gender": "Man",
+        "emotion": {
+            "angry": 0.0006286164280027151,
+            "disgust": 7.693867075289195e-15,
+            "fear": 0.00026549355243332684,
+            "happy": 0.14245136082172394,
+            "sad": 0.052148912101984024,
+            "surprise": 2.818569555529393e-07,
+            "neutral": 99.80451202392578
+        },
+        "dominant_emotion": "neutral"
+    }
+]
+==================================================
+
+❌ Rosto não identificado - Registro em: 2025-03-18 10:58:24
+
+📊 Resultados da Análise Facial:
+[
+    {
+        "age": 26,
+        "region": {
+            "x": 292,
+            "y": 249,
+            "w": 161,
+            "h": 161,
+            "left_eye": null,
+            "right_eye": null
+        },
+        "face_confidence": 0.98,
+        "gender": {
+            "Woman": 0.12589669227600098,
+            "Man": 99.87410736083984
+        },
+        "dominant_gender": "Man",
+        "emotion": {
+            "angry": 0.45429113507270813,
+            "disgust": 2.249158725931011e-08,
+            "fear": 0.41667047142982483,
+            "happy": 0.1408790647983551,
+            "sad": 6.043329238891602,
+            "surprise": 0.00024278194177895784,
+            "neutral": 92.94459533691406
+        },
+        "dominant_emotion": "neutral"
+    }
+]
+==================================================
