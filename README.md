@@ -24,9 +24,6 @@ Total de acertos: 547
 Acurácia: 0.54700000  
   
 Matriz de Confusão:  
-DeepFace    0    1  
-Real  
-0         249  251  
-1         202  298  
-
+0 (Diferentes) |	249 (Verdadeiros Negativos - TN) |	251 (Falsos Negativos - FN)  
+1 (Mesma Pessoa) |	202 (Falsos Positivos - FP)	298 | (Verdadeiros Positivos - TP)  
 
