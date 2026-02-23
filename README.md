@@ -1,29 +1,44 @@
-# Projeto recinhecimento emoções  
+# 🧠 Reconhecimento de Emoções em Tempo Real com CNNs
 
-Este projeto utiliza a biblioteca DeepFace para reconhecimento facial, identificação de rostos e análise de emoções. O objetivo principal é desenvolver um software capaz de monitorar expressões faciais em tempo real, registrando um histórico de emoções para análise posterior.
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-CNNs-orange?style=for-the-badge)
+![Visão Computacional](https://img.shields.io/badge/Visão%20Computacional-Tempo%20Real-brightgreen?style=for-the-badge)
+![Pesquisa](https://img.shields.io/badge/Pesquisa-Acadêmica-darkred?style=for-the-badge)
 
-A aplicação é voltada para monitoramento em creches e ambientes similares, permitindo que responsáveis acompanhem o bem-estar emocional das crianças ao longo do tempo. Além do registro de dados, o sistema também oferecerá monitoramento ao vivo, proporcionando uma visão em tempo real das expressões faciais detectadas.
+## 📖 Sobre o Projeto
+Este projeto de pesquisa tem como foco a aplicação de **Redes Neurais Convolucionais (CNNs)** no reconhecimento automático de emoções humanas em tempo real. 
 
-teste 14/03: algoritimo inicio dos testes  
-teste 18/03(thread): utilização de threads para processamento mais rapido e resolução do problema de travamento de webcam <br>
-teste 18/03(.txt): salvamento de dados em txt correspondente (erro ou resultado)
+A identificação de estados emocionais por meio de expressões faciais apresenta uma elevada complexidade computacional, uma vez que as feições variam drasticamente conforme características individuais, contexto e intensidade emocional. Este sistema foi projetado para superar a análise humana puramente subjetiva, fornecendo uma classificação automatizada, padronizada e contínua das emoções básicas.
 
-Dataset:
-<br>  
-0.0 a 0.4	Muito semelhantes (provavelmente a mesma pessoa)  
-0.4 a 0.6	Semelhança moderada (zona de incerteza)  
-Acima de 0.6	Provavelmente pessoas diferentes
-<br>  
-Média 0: 0.3082277011811812   
-Média 1: 0.6538744384599999  
-Média tudo: 0.6354224591991992  
-  
-0.62 de filtro:  
-Total de pares analisados: 1000  
-Total de acertos: 547  
-Acurácia: 0.54700000  
-  
-Matriz de Confusão:  
-0 (Diferentes) |	249 (Verdadeiros Negativos - TN) |	251 (Falsos Negativos - FN)  
-1 (Mesma Pessoa) |	202 (Falsos Positivos - FP)	298 | (Verdadeiros Positivos - TP)  
+---
 
+## 🎯 Objetivos e Aplicações Práticas
+
+O objetivo principal desta pesquisa é projetar um classificador robusto que atue como uma ferramenta de auxílio em situações críticas. As principais frentes de aplicação incluem:
+
+* **Apoio Pedagógico e Psicológico:** Monitoramento contínuo para detecção precoce de alterações comportamentais, auxiliando profissionais da educação e saúde na compreensão do estado emocional em ambientes de aprendizado.
+* **Prevenção de Riscos:** Identificação de picos de estresse, medo ou agressividade em tempo real, permitindo intervenções rápidas.
+* **Segurança e Monitoramento Inteligente:** Integração com sistemas de câmeras para análise de comportamento automatizada, elevando o nível de segurança em ambientes sensíveis.
+
+---
+
+## ⚙️ Arquitetura e Tecnologias
+
+O sistema é construído sobre os pilares da Visão Computacional moderna e do aprendizado profundo (Deep Learning): 
+
+* **Redes Neurais Convolucionais (CNNs):** Arquitetura base escolhida por sua excelência na extração de características espaciais em imagens (bordas, texturas e formas faciais).
+* **Processamento em Tempo Real:** Captura e inferência contínua de quadros de vídeo, exigindo otimização de processamento para manter uma alta taxa de quadros por segundo (FPS) sem perder a precisão da classificação.
+* **Classificação Multiclasse:** O modelo é treinado para mapear os dados visuais extraídos para o espectro das emoções humanas fundamentais (como alegria, tristeza, raiva, surpresa, medo, repulsa e neutralidade).
+
+---
+
+## 🚀 Status do Desenvolvimento e Próximos Passos
+O projeto encontra-se em fase de estruturação de arquitetura e treinamento/validação do modelo. As etapas futuras envolvem:
+1. Otimização da precisão (*accuracy*) do modelo diante de variações de iluminação e oclusão parcial do rosto.
+2. Redução do custo computacional para permitir a execução em hardwares com recursos limitados.
+3. Disponibilização de scripts de inferência para testes abertos da comunidade.
+
+---
+<div align="center">
+  <em>Transformando expressões faciais em dados acionáveis para segurança e bem-estar.</em>
+</div>
