@@ -26,10 +26,13 @@ A construção deste sistema foca na precisão da classificação e na otimizaç
 ---
 
 ## 🛠️ Arquitetura e Tecnologias
-O ecossistema do projeto está sendo desenhado para integração perfeita com as ferramentas de Inteligência Artificial já consolidadas:
+O ecossistema do projeto foi desenhado para unir modelos de inteligência artificial de ponta a uma usabilidade amigável:
+
 * **Linguagem Principal:** Python.
-* **Modelagem de Deep Learning:** Utilização de frameworks avançados (como TensorFlow/Keras ou PyTorch) para estruturação, treinamento e ajuste fino (*fine-tuning*) da arquitetura CNN.
-* **Visão Computacional:** Dependência pesada de bibliotecas base como `OpenCV` para garantir a performance na manipulação de matrizes de imagem e captura de vídeo da webcam.
+* **Motor de Detecção Facial:** `YOLOv8` (Ultralytics) para processamento espacial em tempo real.
+* **Framework de Análise Facial:** `DeepFace` encapsulando as Redes Neurais Convolucionais para o reconhecimento emocional.
+* **Interface Gráfica (GUI):** `PyQt5` empregado na construção do *dashboard* de monitoramento. Garante uma interface interativa, de baixa latência e amigável para o usuário final, conectando o processamento pesado do *backend* com a visualização do vídeo em tempo real.
+* **Visão Computacional:** Utilização de `OpenCV` para a captura de vídeo da webcam e manipulação das matrizes de imagem.
 
 ---
 
