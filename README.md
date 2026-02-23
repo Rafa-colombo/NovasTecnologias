@@ -1,44 +1,47 @@
-# 🧠 Reconhecimento de Emoções em Tempo Real com CNNs
+# 🧠 Reconhecimento de Emoções e Indivíduos em Tempo Real (CNNs)
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)
-![Deep Learning](https://img.shields.io/badge/Deep%20Learning-CNNs-orange?style=for-the-badge)
-![Visão Computacional](https://img.shields.io/badge/Visão%20Computacional-Tempo%20Real-brightgreen?style=for-the-badge)
-![Pesquisa](https://img.shields.io/badge/Pesquisa-Acadêmica-darkred?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.11.0-blue?style=for-the-badge&logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange?style=for-the-badge)
+![Pesquisa](https://img.shields.io/badge/Pesquisa-Científica-darkgreen?style=for-the-badge)
+![UTFPR](https://img.shields.io/badge/UTFPR-Projeto_Acadêmico-black?style=for-the-badge)
+
+> ⚠️ **AVISO DE STATUS:** Este projeto encontra-se atualmente em fase de **desenvolvimento ativo e testes rigorosos de classificação**. O modelo final ainda não está liberado para testes abertos ou uso em ambiente de produção. O repositório está sendo atualizado conforme o treinamento da rede neural e a validação dos algoritmos avançam.
 
 ## 📖 Sobre o Projeto
-Este projeto de pesquisa tem como foco a aplicação de **Redes Neurais Convolucionais (CNNs)** no reconhecimento automático de emoções humanas em tempo real. 
+Este projeto de pesquisa visa o desenvolvimento e a consolidação de técnicas avançadas de Visão Computacional e Deep Learning de forma nativa na linguagem de programação Python. 
 
-A identificação de estados emocionais por meio de expressões faciais apresenta uma elevada complexidade computacional, uma vez que as feições variam drasticamente conforme características individuais, contexto e intensidade emocional. Este sistema foi projetado para superar a análise humana puramente subjetiva, fornecendo uma classificação automatizada, padronizada e contínua das emoções básicas.
-
----
-
-## 🎯 Objetivos e Aplicações Práticas
-
-O objetivo principal desta pesquisa é projetar um classificador robusto que atue como uma ferramenta de auxílio em situações críticas. As principais frentes de aplicação incluem:
-
-* **Apoio Pedagógico e Psicológico:** Monitoramento contínuo para detecção precoce de alterações comportamentais, auxiliando profissionais da educação e saúde na compreensão do estado emocional em ambientes de aprendizado.
-* **Prevenção de Riscos:** Identificação de picos de estresse, medo ou agressividade em tempo real, permitindo intervenções rápidas.
-* **Segurança e Monitoramento Inteligente:** Integração com sistemas de câmeras para análise de comportamento automatizada, elevando o nível de segurança em ambientes sensíveis.
+A iniciativa central consiste em treinar, otimizar e organizar arquiteturas de Redes Neurais Convolucionais (CNNs) capazes de lidar com a complexidade inerente às expressões faciais humanas. O objetivo final é criar uma ferramenta robusta, eficiente e acessível para a classificação de emoções em tempo real, superando a análise puramente subjetiva e contribuindo diretamente para o monitoramento infantil, apoio pedagógico e prevenção de riscos em situações críticas.
 
 ---
 
-## ⚙️ Arquitetura e Tecnologias
+## ✨ Fundamentação e Algoritmos (Em Implementação)
 
-O sistema é construído sobre os pilares da Visão Computacional moderna e do aprendizado profundo (Deep Learning): 
+A construção deste sistema foca na precisão da classificação e na otimização do custo computacional para execução instantânea. Entre as implementações em andamento e em fase de treinamento, destacam-se:
 
-* **Redes Neurais Convolucionais (CNNs):** Arquitetura base escolhida por sua excelência na extração de características espaciais em imagens (bordas, texturas e formas faciais).
-* **Processamento em Tempo Real:** Captura e inferência contínua de quadros de vídeo, exigindo otimização de processamento para manter uma alta taxa de quadros por segundo (FPS) sem perder a precisão da classificação.
-* **Classificação Multiclasse:** O modelo é treinado para mapear os dados visuais extraídos para o espectro das emoções humanas fundamentais (como alegria, tristeza, raiva, surpresa, medo, repulsa e neutralidade).
+* **Detecção e Rastreamento Facial:** Implementação de algoritmos ágeis para a localização e isolamento rápido de rostos (bounding boxes) em fluxos de vídeo dinâmicos e contínuos.
+* **Redes Neurais Convolucionais (CNNs):** * Desenvolvimento de modelos profundos voltados para a extração detalhada de características espaciais complexas (microexpressões e traços faciais).
+  * Aplicação de camadas densas para classificar de forma objetiva o mapeamento visual no espectro das emoções básicas.
+* **Otimização de Inferência:** Estruturação de pipelines de processamento para garantir que a leitura da câmera, o pré-processamento e a predição da rede neural ocorram sem perda significativa de *frames* (FPS).
 
 ---
 
-## 🚀 Status do Desenvolvimento e Próximos Passos
-O projeto encontra-se em fase de estruturação de arquitetura e treinamento/validação do modelo. As etapas futuras envolvem:
-1. Otimização da precisão (*accuracy*) do modelo diante de variações de iluminação e oclusão parcial do rosto.
-2. Redução do custo computacional para permitir a execução em hardwares com recursos limitados.
-3. Disponibilização de scripts de inferência para testes abertos da comunidade.
+## 🛠️ Arquitetura e Tecnologias
+O ecossistema do projeto está sendo desenhado para integração perfeita com as ferramentas de Inteligência Artificial já consolidadas:
+* **Linguagem Principal:** Python.
+* **Modelagem de Deep Learning:** Utilização de frameworks avançados (como TensorFlow/Keras ou PyTorch) para estruturação, treinamento e ajuste fino (*fine-tuning*) da arquitetura CNN.
+* **Visão Computacional:** Dependência pesada de bibliotecas base como `OpenCV` para garantir a performance na manipulação de matrizes de imagem e captura de vídeo da webcam.
+
+---
+
+## 🚀 Como Utilizar (Em Breve)
+No momento, o acesso ao código fonte principal, aos pesos da rede treinada e aos *datasets* estão restritos aos desenvolvedores e pesquisadores envolvidos para garantir a integridade dos testes de validação e a privacidade dos dados. 
+
+Assim que a versão `Alpha` for estabilizada, atualizaremos esta seção com:
+1. Instruções de instalação de dependências e pacotes via gerenciador (ex: `pip install -r requirements.txt`).
+2. Documentação oficial de execução do script de inferência usando a webcam.
+3. Notebooks de exemplo (`.ipynb`) detalhando a arquitetura da rede, funções de perda e resultados do treinamento.
 
 ---
 <div align="center">
-  <em>Transformando expressões faciais em dados acionáveis para segurança e bem-estar.</em>
+  <em>Desenvolvendo o futuro da análise comportamental automatizada.</em>
 </div>
